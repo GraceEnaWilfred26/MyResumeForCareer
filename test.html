@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+  padding: 10px;
+  background: #white;
+}
+
+/* Header/Blog Title */
+.header {
+  padding: 30px;
+  text-align: center;
+  background: white;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {   
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: white;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #65676C;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: #021443;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #65676C;
+  margin-top: 20px;
+}
+}
+
+/* Style the top navigation bar */
+.topnav {
+  overflow: hidden;
+  background-color: #green;
+}
+
+/* Style the topnav links */
+.topnav a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover {
+  background-color: black;
+  color: black;
+}
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 0;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<img src="Task 1-Image Header (grace personal website) (1).png" alt="Grace Ena" style="width:100%;height:fixed;">
+ 
+<nav>
+<ul>
+	<div class="topnav">
+	<li><a href="About Me.html" style="float:left"><i><b>About Me</i></b></li></a>
+	<li><a href="Personal Details.html" style="float:left"><i><b>Personal Details</i></b></li></a>
+	<li><a href="Career Objective.html" style="float:left"><i><b>Career Objective</i></b></li></a>
+	<li><a href="Educational Background.html" style="float:left"><i><b>Educational Background</i></b></li></a>
+	<li><a href="Work Experiences.html" style="float:left"><i><b>Work Experiences</i></b></li></a>
+	<li><a href="Skills.html" style="float:left"><i><b>Skills</i><b><li></a>
+	<li><a href="Achievements.html" style="float:left"><i><b>Achievements</i></b></li></a>
+</ul>	
+</div>
+</nav>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+	
+	
+	<h1 style = "font-family: arial; color: white; text-align:  
+center; font-size 12px; text-shadow: 2px 2px 3px #65676C;"> About Me</h1>
+	<p style = "font-family: berlin; color: white; font-size 12px; text-align: center;"><b>Title 	:  
+My Resume</b></h2>
+	
+	<p style = "font-family: berlin; color: white; font-size 12px; text-align: center;"><b>Name 	: Grace  
+Ena Wilfred</b></p>
+	
+	<p style = "font-family: berlin; color: white; font-size 12px; text-align: center;"><b>Student ID 	: 2020166237</b></p>
+
+	<p style = "font-family: berlin; color: white; font-size 12px; text-align: center;"><b>Group	: BA2322C</b></p>
+	
+	<p style = "font-family: berlin; color: white; font-size 12px; text-align: center;"><b>Course Code :  
+IMS456</b></p>
+	
+	<p style ="font-family: berlin; color: white; font-size 12px; text-align: center;"><b>Course Name :  
+Basic Web Design and Content Management</b></p>
+	
+	<p style ="font-family: berlin; color: white; font-size 12px; text-align: center;"><b>Program Code :  
+BA232</b></p>
+	
+	<p style ="font-family: berlin; color: white; font-size 12px; text-align: center;"><b>Faculty :  
+Faculty of Business and Management</b></p>
+	
+	<p style ="font-family: berlin; color: white; font-size 12px; text-align: center;"><b>Submission Date :  
+31 December 2020</b></p>
+
+	<p style ="font-family: berlin; color: white; font-size 12px; text-align: center;"><b>Published URL :  
+27 DECEMBER 2020</b></p>
+
+</div>
+</div>
+    <div class="rightcolumn">
+	<div class="card">
+      <h2 style="font-family: berlin; color: white; font-size 12px; text-align: left;">My Photo</h2>
+     <img src="image (3).jpg" alt="Grace Ena" style="width:80%;height:280px; text-align: right;">
+      <p style="font-family: berlin; color: white; font-size 12px; text-align: center;">"I'm willing to learn and contribute my effort to your organization"</p>
+    </div>
+    
+</div>
+</div>
+
+<div class="footer">
+  <h2>Full Copyright© by Grace Ena Wilfred</h2>
+</div>
